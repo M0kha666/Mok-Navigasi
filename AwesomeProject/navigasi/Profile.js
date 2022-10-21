@@ -20,6 +20,9 @@ const Profile = ({navigation}) => {
                 <Button title='About'
                 onPress={()=>navigation.navigate('About')}/>
             <Text></Text>
+                <Button title='Social'
+                onPress={()=>navigation.navigate('Social')}/>
+            <Text></Text>
                 <Button title='Go Home'
                 onPress={()=>navigation.navigate('Home')}/>
         </View>

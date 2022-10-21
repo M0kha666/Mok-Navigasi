@@ -21,6 +21,16 @@ const style=StyleSheet.create({
       borderColor:'#262c50',
       backgroundColor:'#9597a0'
     },
+    moksoc: {
+      color:'white',
+      fontSize:27,
+      textAlign:'center',
+      // borderWidth:0,
+      paddingTop:10,
+      paddingBottom:10,
+      // borderColor:'#262c50',
+      // backgroundColor:'#9597a0'
+    }
   });
 
   export {style};

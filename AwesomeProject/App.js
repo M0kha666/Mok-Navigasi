@@ -5,6 +5,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./navigasi/Home";
 import About from "./navigasi/About";
 import Profile from "./navigasi/Profile";
+import Social from "./navigasi/Social";
+import Contact from "./navigasi/Contact";
 
 // function HomeScreen() {
 //   return (
@@ -24,6 +26,8 @@ const Stack = createNativeStackNavigator();
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="About" component={About} />
           <Stack.Screen name="Profile" component={Profile} />
+          <Stack.Screen name="Social" component={Social} />
+          <Stack.Screen name="Contact" component={Contact} />
         </Stack.Navigator>
       </NavigationContainer>
     );

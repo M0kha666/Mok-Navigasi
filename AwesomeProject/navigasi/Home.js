@@ -16,6 +16,12 @@ const Home = ({navigation}) => {
                 <Text></Text>
             <Button title='Profile'
             onPress={()=>navigation.navigate('Profile')}/>
+                <Text></Text>
+            <Button title='Social'
+            onPress={()=>navigation.navigate('Social')}/>
+                <Text></Text>
+            <Button title='Contact'
+            onPress={()=>navigation.navigate('Contact')}/>
         </View>
     );
 };
